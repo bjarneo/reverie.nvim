@@ -74,7 +74,7 @@ local colors = {
 	keyword = palette.cyan,
 
 	-- Types and classes
-	type = palette.cyan,
+	type = palette.yellow,
 
 	-- Constants and numbers
 	constant = palette.yellow,

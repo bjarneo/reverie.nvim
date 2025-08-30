@@ -50,7 +50,7 @@ M.colors = {
 	keyword = "#b479a3",
 
 	-- Types and classes
-	type = "#7e9fca",
+	type = "#f4a261",
 
 	-- Constants and numbers
 	constant = "#f4a261",
