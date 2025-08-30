@@ -37,20 +37,20 @@ M.colors = {
 	comment_alt = "#4b5a80",
 
 	-- Functions and methods
-	func = "#d8e0f2",
-	func_builtin = "#d8e0f2",
+	func = "#587ea8",
+	func_builtin = "#7e9fca",
 
 	-- Strings
-	string = "#f4a261",
-	string_template = "#f4a261",
-	string_escape = "#f4a261",
-	string_regex = "#f4a261",
+	string = "#6ca994",
+	string_template = "#82c3ab",
+	string_escape = "#82c3ab",
+	string_regex = "#82c3ab",
 
 	-- Keywords and control flow
-	keyword = "#6dc2c5",
+	keyword = "#b479a3",
 
 	-- Types and classes
-	type = "#6dc2c5",
+	type = "#7e9fca",
 
 	-- Constants and numbers
 	constant = "#f4a261",
@@ -63,7 +63,7 @@ M.colors = {
 
 	-- Operators and punctuation
 	operator = "#6dc2c5",
-	punctuation = "#4b5a80",
+	punctuation = "#c7cce1",
 
 	-- Special colors
 	cursor = "#a0a8b0",
