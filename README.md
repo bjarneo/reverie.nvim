@@ -39,5 +39,5 @@ vim.cmd.colorscheme "reverie"
 ```
 
 ### AI 
-This entire repo is made by using AI. Meaning the folder structure is not as it should be, and this is to be cleaned up.
+This entire repo is made by using AI. Meaning the folder structure, and file contents are not as it should be, and this is to be cleaned up.
 
