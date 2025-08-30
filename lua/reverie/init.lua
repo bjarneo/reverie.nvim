@@ -1,4 +1,3 @@
--- Ash theme initialization module
 local M = {}
 
 -- Default configuration

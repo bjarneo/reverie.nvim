@@ -1,17 +1,16 @@
 # Reverie
 
-A simple, elegant, and dark theme for Neovim.
+Reverie is a simple, elegant, and dark theme for Neovim. It's designed for those moments of deep focus, when the world fades away and all that's left is you and your code.
 
 <p align="center">
   <img src="theme.png" alt="Reverie Theme Preview">
 </p>
 
->A whisper soft, a final sigh,  
->Of embers fading, where flames danced high.  
->A silver ghost on the hearthstone laid,  
->A memory of the fire's parade.  
->This is the ash, the soft and grey,  
->The quiet end of a burning day.
+> Where sky and shadow softly meet,  
+> the world outside makes its retreat.  
+> The mind, in silent reverie,  
+> is calmed by light it came to see,  
+> and finds itself completely free.  
 
 ## Installation
 
@@ -37,5 +36,9 @@ To use the theme, add the following to your `init.lua`:
 
 ```lua
 vim.cmd.colorscheme "reverie"
+
+
+## AI 
+This entire repo is made by using AI. Meaning the folder structure is not as it should be, and this is to be cleaned up.
 ```
 

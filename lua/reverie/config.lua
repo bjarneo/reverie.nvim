@@ -1,13 +1,12 @@
--- Ash theme configuration examples
 -- This file demonstrates how to customize the theme
 
-local ash = require("ash")
+local reverie = require("reverie")
 
 -- Example 1: Basic setup with default configuration
-ash.setup()
+reverie.setup()
 
 -- Example 2: Custom configuration with disabled features
-ash.setup({
+reverie.setup({
 	-- Disable transparent background for terminal users
 	disable = {
 		background = true, -- Use terminal background
@@ -49,7 +48,7 @@ ash.setup({
 })
 
 -- Example 3: Minimal setup for performance
-ash.setup({
+reverie.setup({
 	plugins = {
 		treesitter = true,
 		lsp = true,
@@ -63,7 +62,7 @@ ash.setup({
 })
 
 -- Example 4: High contrast setup
-ash.setup({
+reverie.setup({
 	colors = {
 		-- Darker background for higher contrast
 		bg = "#0f0f0f",
@@ -95,25 +94,25 @@ local custom_colors = {
 	-- ... add more custom colors
 }
 
-ash.setup({
+reverie.setup({
 	colors = custom_colors,
 })
 
 -- After setup, load the colorscheme
-ash.load()
+reverie.load()
 
 -- Or use the traditional method
--- vim.cmd('colorscheme ash')
+-- vim.cmd('colorscheme reverie')
 
 --[[
 Usage in your init.lua:
 
 -- Option 1: Simple setup
-require('ash').setup()
-vim.cmd('colorscheme ash')
+require('reverie').setup()
+vim.cmd('colorscheme reverie')
 
 -- Option 2: With configuration
-require('ash').setup({
+require('reverie').setup({
   disable = {
     background = true,
   },
@@ -121,11 +120,11 @@ require('ash').setup({
     comment = '#6b7280',
   },
 })
-require('ash').load()
+require('reverie').load()
 
 -- Option 3: With lazy.nvim
 {
-  'bjarneo/ash.nvim',
+  'bjarneo/reverie.nvim',
   lazy = false,
   priority = 1000,
   opts = {
@@ -134,8 +133,8 @@ require('ash').load()
     },
   },
   config = function(_, opts)
-    require('ash').setup(opts)
-    vim.cmd('colorscheme ash')
+    require('reverie').setup(opts)
+    vim.cmd('colorscheme reverie')
   end,
 }
 --]]
