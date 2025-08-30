@@ -85,7 +85,7 @@ reverie.setup({
 local custom_colors = {
 	bg = "#1a1a1a",
 	fg = "#e6e6e6",
-	comment = "#666666",
+	comment = "#6ca994",
 	func = "#ff79c6",
 	string = "#50fa7b",
 	keyword = "#ff9900",
@@ -117,7 +117,7 @@ require('reverie').setup({
     background = true,
   },
   colors = {
-    comment = '#6b7280',
+    comment = '#6ca994',
   },
 })
 require('reverie').load()
