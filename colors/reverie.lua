@@ -61,8 +61,8 @@ local colors = {
 	comment_alt = palette.bright_black,
 
 	-- Functions and methods
-	func = palette.yellow,
-	func_builtin = palette.yellow,
+	func = palette.foreground,
+	func_builtin = palette.foreground,
 
 	-- Strings
 	string = palette.yellow,

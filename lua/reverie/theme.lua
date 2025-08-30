@@ -37,8 +37,8 @@ M.colors = {
 	comment_alt = "#4b5a80",
 
 	-- Functions and methods
-	func = "#f4a261",
-	func_builtin = "#f4a261",
+	func = "#587ea8",
+	func_builtin = "#7e9fca",
 
 	-- Strings
 	string = "#6ca994",
