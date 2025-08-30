@@ -36,9 +36,8 @@ To use the theme, add the following to your `init.lua`:
 
 ```lua
 vim.cmd.colorscheme "reverie"
-
-
-## AI 
-This entire repo is made by using AI. Meaning the folder structure is not as it should be, and this is to be cleaned up.
 ```
+
+### AI 
+This entire repo is made by using AI. Meaning the folder structure is not as it should be, and this is to be cleaned up.
 
