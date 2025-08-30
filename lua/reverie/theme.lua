@@ -33,8 +33,8 @@ M.colors = {
 	border = "#4b5a80",
 
 	-- Syntax colors
-	comment = "#4b5a80",
-	comment_alt = "#4b5a80",
+	comment = "#6ca994",
+	comment_alt = "#6ca994",
 
 	-- Functions and methods
 	func = "#587ea8",

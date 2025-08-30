@@ -57,8 +57,8 @@ local colors = {
 	border = palette.bright_black,
 
 	-- Syntax colors
-	comment = palette.bright_black,
-	comment_alt = palette.bright_black,
+	comment = palette.green,
+	comment_alt = palette.green,
 
 	-- Functions and methods
 	func = palette.foreground,

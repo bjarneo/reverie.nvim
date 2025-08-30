@@ -17,7 +17,7 @@ reverie.setup({
 	-- Override specific colors
 	colors = {
 		-- Make comments more visible
-		comment = "#6b7280",
+		comment = "#6ca994",
 		-- Change function color
 		func = "#A855F7",
 		-- Custom background (if not using terminal background)
